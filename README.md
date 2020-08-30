@@ -24,14 +24,14 @@ A traffic collision, also called a motor vehicle collision, car accident, or car
 ![](https://github.com/JafirDon/Coursera_Capstone/blob/master/image/image2.jfif)
 
 <h2>Data Understanding</h2>
-### Data Set Basics
+ <h3>Data Set Basics</h3>
 <ol>
  <li>Title - Collisions—All Years</li>
  <li>Abstract - All collisions provided by SPD and recorded by Traffic Records. </li>
  <li>Description - This includes all types of collisions. Collisions will display at the intersection or mid-block of a segment. </li>
  <li>Update Frequency - Weekly </li>
 </ol>
-### Contact Information
+ <h3>Contact Information</h3>
 <ol>
  <li>Contact Organization - SDOT Traffic Management Division, Traffic Records Group </li>
  <li>Contact Person - SDOT GIS Analyst</li>
