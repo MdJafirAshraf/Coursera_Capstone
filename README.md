@@ -14,7 +14,7 @@ A traffic collision, also called a motor vehicle collision, car accident, or car
 
 ![](image/image1.jpg)
 
- <br><br><br>
+ <br>
  This includes all types of collisions address.
  <ul><li>Alley </li>
     <li> Block</li>
