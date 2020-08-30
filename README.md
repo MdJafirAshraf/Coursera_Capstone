@@ -1,9 +1,22 @@
 # Coursera_Capstone
 Hello, I'm **Mohamed Jafir Ashraf**. This my capstone project in corsera, IBM. In this notebook will be mainly used for the capstone project.
 
-<h2> Introduction</h2>
+# Table of Content
+<ul>
+ <li>Introduction
+  <ul><li>Problem Description</li>
+   <li>Data Understanding</li></ul>
+ </li>
+ <li>Data Preparation</li>
+ <li>Modeling</li>
+ <li>Evaluation</li>
+ <li>Conclusion</li>
+</ul>
+
+# Introduction
 <br>
-<h3>Problem Description</h3>
+
+<h2>Problem Description</h2>
 
 ## Collisions
 A collision is the event in which two or more bodies exert forces on each other in about a relatively short time. Although the most common use of the word collision refers to incidents in which two or more objects collide with great force, the scientific use of the term implies nothing about the magnitude of the force.
@@ -36,3 +49,4 @@ A traffic collision, also called a motor vehicle collision, car accident, or car
  <li>Contact Organization - SDOT Traffic Management Division, Traffic Records Group </li>
  <li>Contact Person - SDOT GIS Analyst</li>
 </ol>
+Notebook link :<a href='https://github.com/JafirDon/Coursera_Capstone/blob/master/code/Problem%20description%20and%20Data%20Understanding%20.ipynb'>Problem Description and Data Understanding</a>
