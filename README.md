@@ -2,8 +2,8 @@
 Hello, I'm **Mohamed Jafir Ashraf**. This my capstone project in corsera, IBM. In this notebook will be mainly used for the capstone project.
 
 <h2> Introduction</h2>
-
-In this notebook focus on the **Problem Description** and the **Data Understanding** stages.
+<br>
+<h3>Problem Description</h3>
 
 ## Collisions
 A collision is the event in which two or more bodies exert forces on each other in about a relatively short time. Although the most common use of the word collision refers to incidents in which two or more objects collide with great force, the scientific use of the term implies nothing about the magnitude of the force.
@@ -22,3 +22,17 @@ A traffic collision, also called a motor vehicle collision, car accident, or car
 </ul>
 
 ![](https://github.com/JafirDon/Coursera_Capstone/blob/master/image/image2.jfif)
+
+<h2>Data Understanding</h2>
+### Data Set Basics
+<ol>
+ <li>Title - Collisions—All Years</li>
+ <li>Abstract - All collisions provided by SPD and recorded by Traffic Records. </li>
+ <li>Description - This includes all types of collisions. Collisions will display at the intersection or mid-block of a segment. </li>
+ <li>Update Frequency - Weekly </li>
+</ol>
+### Contact Information
+<ol>
+ <li>Contact Organization - SDOT Traffic Management Division, Traffic Records Group </li>
+ <li>Contact Person - SDOT GIS Analyst</li>
+</ol>
