@@ -8,8 +8,8 @@ Hello, I'm **Mohamed Jafir Ashraf**. This my capstone project in corsera, IBM. I
    <li>Data Understanding</li></ul>
  </li>
  <li>Data Preparation</li>
+ <li>Exploratory Data Analysis</li>
  <li>Modeling</li>
- <li>Evaluation</li>
  <li>Conclusion</li>
 </ul>
 
@@ -26,13 +26,19 @@ A traffic collision, also called a motor vehicle collision, car accident, or car
 
 ![](image/image1.jpg)
 
- <br>
- This includes all types of collisions address.
- <ul><li>Alley </li>
-    <li> Block</li>
-    <li> Intersection</li>
-</ul>
+The field of Active Safety with respect to motor vehicles is concerned with the prevention of accidents before they happen. Warning drivers about the possibility of accidents and their severity due to weather, road, and visibility conditions is a new approach to prevent or reduce accidents before they take place.
 
+ <br>
+This include corresponds to the severity of the collision: 
+ <ul><li>Fatality </li>
+    <li> Serious injury </li>
+    <li> Injury</li>
+ <li>Property damage </li>
+</ul>
+The traffic control stations would be known for traffic collisions often result in injury, disability, death, and property damage as well as financial costs to both society and the individuals involved. All collisions provided by SPD and recorded by Traffic Records.
+<br>
+Type of Collision address
+<br>
 ![](https://github.com/JafirDon/Coursera_Capstone/blob/master/image/image2.jfif)
 
 <h2>Data Understanding</h2>
@@ -49,3 +55,18 @@ A traffic collision, also called a motor vehicle collision, car accident, or car
  <li>Contact Person - SDOT GIS Analyst</li>
 </ol>
 Notebook link :<a href='https://github.com/JafirDon/Coursera_Capstone/blob/master/code/Problem%20description%20and%20Data%20Understanding%20.ipynb'>Problem Description and Data Understanding</a>
+
+<h2>Data Preparation</h2>
+First downloaded the data from source and find the data information, description and shape of the data in after analysis. There were a lot of missing values from dataset, because of lack of record keeping. I decided to only use data for categorical values, because most column values are categorical and its help to easy to find a prediction value.
+<br>Data set has to several problems, so start the cleaning of data. First, the data contain different columns with same values.
+<br>Second, there were lot of missing values from dataset.
+<br>Third, the data columns of datatype isn’t related to other data columns. Many columns are contain object type of datatype. And then some other columns are complicated values like date, float and negative values. After drop the unwanted columns based on further analysis.
+<br>After fixing these problems, I checked for outliers in the data. I found there were some extreme outliers, mostly caused by some types of small sample size problem.
+<br>Final step of the Data acquisition, Feature selection is important to the predictive modelling. After data cleaning, there were 194673 samples and 49 features in the data. Upon examining the meaning of each feature, it was clear that there was some redundancy in the features.
+
+Notebook link:<a href='https://github.com/JafirDon/Coursera_Capstone/blob/master/code/Data%20Preparation%20.ipynb'>Data Preparation</a>
+
+<h2>Explorotory Data Analysis</h2>
+1. Histogram of the data separated into each columns based on number of collisions. There are address type, junction type, collision type and others. The separate columns are highlights to the different colours with labels.
+
+![](image/image3.png)
