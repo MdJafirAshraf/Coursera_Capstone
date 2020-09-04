@@ -39,7 +39,7 @@ The traffic control stations would be known for traffic collisions often result 
 <br>
 Type of Collision address
 <br>
-![](https://github.com/JafirDon/Coursera_Capstone/blob/master/image/image2.jfif)
+<img src='image/image2.jfif'></img>
 
 <h2>Data Understanding</h2>
  <h3>Data Set Basics</h3>
