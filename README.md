@@ -69,11 +69,11 @@ Notebook link : <a href='https://github.com/JafirDon/Coursera_Capstone/blob/mast
 <h2>Explorotory Data Analysis</h2>
 1. Histogram of the data separated into each columns based on number of collisions. There are address type, junction type, collision type and others. The separate columns are highlights to the different colours with labels.
  <br>
-![](image/image3.png)
+<img src='image/image3.png'></img>
  <br>
 2. The box plot is represent of relationship for severity of each data. There are address type, status, and weather and road condition.
 <br>
-![](image/image4.png)
+<img src='image/image4.png'></img>
 <br>
 Notebook link : <a href='https://github.com/JafirDon/Coursera_Capstone/blob/master/code/Exploratory%20Data%20Analysis.ipynb'>Explorotory Data Analysis</a>
 <br>
