@@ -58,15 +58,30 @@ Notebook link :<a href='https://github.com/JafirDon/Coursera_Capstone/blob/maste
 
 <h2>Data Preparation</h2>
 First downloaded the data from source and find the data information, description and shape of the data in after analysis. There were a lot of missing values from dataset, because of lack of record keeping. I decided to only use data for categorical values, because most column values are categorical and its help to easy to find a prediction value.
-<br>Data set has to several problems, so start the cleaning of data. First, the data contain different columns with same values.
+<br><br>Data set has to several problems, so start the cleaning of data. First, the data contain different columns with same values.
 <br>Second, there were lot of missing values from dataset.
-<br>Third, the data columns of datatype isn’t related to other data columns. Many columns are contain object type of datatype. And then some other columns are complicated values like date, float and negative values. After drop the unwanted columns based on further analysis.
-<br>After fixing these problems, I checked for outliers in the data. I found there were some extreme outliers, mostly caused by some types of small sample size problem.
-<br>Final step of the Data acquisition, Feature selection is important to the predictive modelling. After data cleaning, there were 194673 samples and 49 features in the data. Upon examining the meaning of each feature, it was clear that there was some redundancy in the features.
-
+<br>Third, the data columns of datatype isn’t related to other data columns. Many columns are contain object type of datatype.  <br>And then some other columns are complicated values like date, float and negative values. After drop the unwanted columns based on further analysis.
+<br><br>After fixing these problems, I checked for outliers in the data. I found there were some extreme outliers, mostly caused by some types of small sample size problem.
+<br><br>Final step of the Data acquisition, Feature selection is important to the predictive modelling. After data cleaning, there were 194673 samples and 49 features in the data. Upon examining the meaning of each feature, it was clear that there was some redundancy in the features.
+ <br>
 Notebook link:<a href='https://github.com/JafirDon/Coursera_Capstone/blob/master/code/Data%20Preparation%20.ipynb'>Data Preparation</a>
 
 <h2>Explorotory Data Analysis</h2>
 1. Histogram of the data separated into each columns based on number of collisions. There are address type, junction type, collision type and others. The separate columns are highlights to the different colours with labels.
-
+ <br>
 ![](image/image3.png)
+ <br>
+2. The box plot is represent of relationship for severity of each data. There are address type, status, and weather and road condition.
+<br>
+![](image/image4.png)
+<br>
+Notebook link:<a href='https://github.com/JafirDon/Coursera_Capstone/blob/master/code/Exploratory%20Data%20Analysis.ipynb'>Explorotory Data Analysis</a>
+<br>
+<h2>Modeling</h2>
+<br>
+Models can use one or more classiﬁers in trying to determine the probability of a set of data belonging to another set. There are two types of models, Regression and Classification. <br>
+Classiﬁcation in machine learning and statistics is a supervised learning approach in which the computer program learns from the data given to it and make new observations or classiﬁcations. A classiﬁcation model attempts to draw some conclusion from observed values. Given one or more inputs a classiﬁcation model will try to predict the value of one or more outcomes. Outcomes are labels that can be applied to a dataset.<br>
+There are a number of classiﬁcation models. Classiﬁcation models include K nearest neighbour and Naive Bayes, Logistic regression, Decision tree, and Random forest.<br>
+Notebook link:<a href='https://github.com/JafirDon/Coursera_Capstone/blob/master/code/Predictive%20Modeling.ipynb'>Modeling</a><br><br>
+<h2>Conclusion</h2>
+Purpose of this project was to identify the type of severity of the collision. The major important of predicting is Weather condition, Road condition, Address of collision, how many peoples are involved, how many vehicles are present and type of collision. That are helps to predict to what type of severity or disability in collision.
