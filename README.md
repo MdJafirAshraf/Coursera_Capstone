@@ -82,6 +82,7 @@ Notebook link : <a href='https://github.com/JafirDon/Coursera_Capstone/blob/mast
 Models can use one or more classiﬁers in trying to determine the probability of a set of data belonging to another set. There are two types of models, Regression and Classification. <br>
 Classiﬁcation in machine learning and statistics is a supervised learning approach in which the computer program learns from the data given to it and make new observations or classiﬁcations. A classiﬁcation model attempts to draw some conclusion from observed values. Given one or more inputs a classiﬁcation model will try to predict the value of one or more outcomes. Outcomes are labels that can be applied to a dataset.<br>
 There are a number of classiﬁcation models. Classiﬁcation models include K nearest neighbour and Naive Bayes, Logistic regression, Decision tree, and Random forest.<br>
+<img src='image/image5.png'></img><br>
 Notebook link : <a href='https://github.com/JafirDon/Coursera_Capstone/blob/master/code/Predictive%20Modeling.ipynb'>Modeling</a><br><br>
 <h2>Conclusion</h2>
 Purpose of this project was to identify the type of severity of the collision. The major important of predicting is Weather condition, Road condition, Address of collision, how many peoples are involved, how many vehicles are present and type of collision. That are helps to predict to what type of severity or disability in collision.
